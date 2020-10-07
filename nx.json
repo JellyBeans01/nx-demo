@@ -22,5 +22,29 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "react": {
+      "tags": []
+    },
+    "react-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react"]
+    },
+    "express": {
+      "tags": []
+    },
+    "react-2": {
+      "tags": []
+    },
+    "react-2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react-2"]
+    },
+    "frontend-utils": {
+      "tags": []
+    },
+    "shared-utils": {
+      "tags": []
+    }
+  }
 }
