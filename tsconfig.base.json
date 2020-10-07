@@ -20,5 +20,26 @@
       "@marlon-be/shared-utils": ["libs/shared-utils/src/index.ts"]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
+  "nx-enforce-module-boundaries": [
+    true,
+    {
+      "allow": [],
+      "depConstraints": [
+        {
+          "sourceTag": "scope:frontend",
+          "onlyDependOnLibsWithTags": [
+            "scope:frontend"
+          ]
+        },
+        {
+          "sourceTag": "scope:shared",
+          "onlyDependOnLibsWithTags": [
+            "scope:frontend",
+            "scope:shared"
+          ]
+        }
+      ]
+    }
+  ]
 }

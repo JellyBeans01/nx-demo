@@ -24,27 +24,27 @@
   },
   "projects": {
     "react": {
-      "tags": []
+      "tags": ["scope:frontend", "scope:shared"]
     },
     "react-e2e": {
       "tags": [],
       "implicitDependencies": ["react"]
     },
     "express": {
-      "tags": []
+      "tags": ["scope:shared"]
     },
     "react-2": {
-      "tags": []
+      "tags": ["scope:frontend", "scope:shared"]
     },
     "react-2-e2e": {
       "tags": [],
       "implicitDependencies": ["react-2"]
     },
     "frontend-utils": {
-      "tags": []
+      "tags": ["scope:frontend"]
     },
     "shared-utils": {
-      "tags": []
+      "tags": ["scope:shared"]
     }
   }
 }
