@@ -28,7 +28,7 @@
   "private": true,
   "dependencies": {
     "document-register-element": "1.13.1",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
